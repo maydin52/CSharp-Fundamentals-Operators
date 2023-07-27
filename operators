@@ -75,3 +75,9 @@ Nullable operatörü
 int? sID = null;
 
 //int kID = null;
+
+-------------------------------------------------------------------
+
+Console.WriteLine(!true);
+
+Console.WriteLine(!false);
