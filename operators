@@ -81,3 +81,20 @@ int? sID = null;
 Console.WriteLine(!true);
 
 Console.WriteLine(!false);
+
+-------------------------------------------------------------------
+
+      //Karsılastırma Operatörleri
+      //1-) == (karsılıklı iki değerin birbiriyle esit olması durumu)
+      //2-) != (karsılıklı iki degerin birbirlerine esit olmaması durumu)
+      //3-) < (soldaki degerin sagdaki degerden kucuk olması durumu)
+      //4-) > (soldaki degerin sagdaki degerden buyuk olması durumu)
+      //5-) <= (soldaki degerin sagdaki degere esit yada kucuk olması durumu)
+      //6-) >= (soldaki degerin sagdaki degere esit yada buyuk olması durumu.)
+
+      //Mantıksal Operatörler
+      // Birden fazla durumun aynı anda kontrol edilmesi gibi senaryolarda kullanılan operatör.
+      // && (ve) (Kontrol blogu içerisinde yer alan tüm kosulların saglanması durumunu işaret eder. kosullardan biri dahi saglamıyorsa bloku harekete gecirmez.)
+      // || (veya) (kontrol blogu içerisinde yer alan kosullardan her hangi birinin saglanması durumunu işaret ederi. bir kosul saglansa bile blogumuz harakete geçerr. )
+      // & ve
+      // | veya
