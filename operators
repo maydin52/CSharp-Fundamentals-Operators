@@ -98,3 +98,50 @@ Console.WriteLine(!false);
       // || (veya) (kontrol blogu içerisinde yer alan kosullardan her hangi birinin saglanması durumunu işaret ederi. bir kosul saglansa bile blogumuz harakete geçerr. )
       // & ve
       // | veya
+
+-------------------------------------------------------------------
+
+static void Main(string[] args)
+    {
+      //Toplama işlemi
+
+      int sayiBir = 102;
+      int SayiIkı = 25;
+
+      int toplam = sayiBir + SayiIkı;
+
+      Console.WriteLine("Toplama işlemi sonucu: " + toplam);
+      Console.WriteLine("Toplama işlemi sonucu: " + sayiBir + SayiIkı);
+      Console.WriteLine("Toplama işlemi sonucu: " + (sayiBir + SayiIkı));
+
+      //Kullanıcıdan aldıgımız iki sayıyı toplama işlemi
+
+      int s1, s2;
+      int toplam2;
+
+      Console.WriteLine("Birinci sayıyı Giriniz");
+      s1 = Convert.ToInt32(Console.ReadLine());
+
+      Console.WriteLine("İkinci sayıyı Giriniz");
+      s2 = Convert.ToInt32(Console.ReadLine());
+      toplam2 = s1 + s2;
+      Console.WriteLine("Toplam: " + toplam2);
+      Console.ReadKey();
+
+
+
+
+      //string s1, s2;
+      //int toplam2;
+
+      //Console.WriteLine("Birinci sayıyı Giriniz");
+      //s1 = Console.ReadLine();
+
+      //Console.WriteLine("İkinci sayıyı Giriniz");
+      //s2 = Console.ReadLine();
+      //;
+      //Console.WriteLine("Toplam: " + (s1 + s2));
+      //Console.ReadKey();
+
+
+    }
