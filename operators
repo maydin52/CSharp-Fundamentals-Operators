@@ -105,28 +105,28 @@ static void Main(string[] args)
     {
       //Toplama işlemi
 
-      int sayiBir = 102;
-      int SayiIkı = 25;
+      //int sayiBir = 102;
+      //int SayiIkı = 25;
 
-      int toplam = sayiBir + SayiIkı;
+      //int toplam = sayiBir + SayiIkı;
 
-      Console.WriteLine("Toplama işlemi sonucu: " + toplam);
-      Console.WriteLine("Toplama işlemi sonucu: " + sayiBir + SayiIkı);
-      Console.WriteLine("Toplama işlemi sonucu: " + (sayiBir + SayiIkı));
+      //Console.WriteLine("Toplama işlemi sonucu: " + toplam);
+      //Console.WriteLine("Toplama işlemi sonucu: " + sayiBir + SayiIkı);
+      //Console.WriteLine("Toplama işlemi sonucu: " + (sayiBir + SayiIkı));
 
       //Kullanıcıdan aldıgımız iki sayıyı toplama işlemi
 
-      int s1, s2;
-      int toplam2;
+      //int s1, s2;
+      //int toplam2;
 
-      Console.WriteLine("Birinci sayıyı Giriniz");
-      s1 = Convert.ToInt32(Console.ReadLine());
+      //Console.WriteLine("Birinci sayıyı Giriniz");
+      //s1 = Convert.ToInt32(Console.ReadLine());
 
-      Console.WriteLine("İkinci sayıyı Giriniz");
-      s2 = Convert.ToInt32(Console.ReadLine());
-      toplam2 = s1 + s2;
-      Console.WriteLine("Toplam: " + toplam2);
-      Console.ReadKey();
+      //Console.WriteLine("İkinci sayıyı Giriniz");
+      //s2 = Convert.ToInt32(Console.ReadLine());
+      //toplam2 = s1 + s2;
+      //Console.WriteLine("Toplam: " + toplam2);
+      //Console.ReadKey();
 
 
 
@@ -143,5 +143,88 @@ static void Main(string[] args)
       //Console.WriteLine("Toplam: " + (s1 + s2));
       //Console.ReadKey();
 
+      #region
+      //Örnek 1 
 
+      // Dısarıdan alınan iki sayının toplamı ile farkının bir birlerine bolümünden kalanın sonucu nedir ? (Toplamın Farka bolumundan kalan kaçtır.)
+
+      //Console.WriteLine("Lütfen Birinci Sayıyı Giriniz");
+      //int sayi1 = Convert.ToInt32(Console.ReadLine());
+      //Console.WriteLine("Lütfen İkinci Sayıyı Giriniz");
+      //int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+      //int toplam = sayi1 + sayi2;
+      //int fark = sayi1 - sayi2;
+
+      //int kalan = toplam % fark;
+
+      //Console.WriteLine("İşlem Sonucu: " + kalan);
+
+
+      #endregion
+
+      #region
+
+      // Dısarıdan Girilen bir sayının 10 eksiginin 20 fazlasinın 2' ye bolumunden kalanın karesi kaçtır ? 
+
+      //Console.WriteLine("Lütfen bir sayı giriniz");
+      //double sayi = Convert.ToDouble(Console.ReadLine());
+      //double kalan = (sayi - 10 + 20) % 2;
+      //double sonuc = kalan * kalan;
+
+      //Console.WriteLine("İşlem sonucu:" + sonuc);
+
+      #endregion
+
+      #region
+
+      //Disarıdan girilen iki sayının karelerinin toplami ile karalerinin farkının toplamı kaçtır. ?
+
+      //Console.WriteLine("Lütfen birinci sayıyı giriniz");
+      //int s1 = Convert.ToInt32(Console.ReadLine());
+      //Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+      //int s2 = Convert.ToInt32(Console.ReadLine());
+
+      //int birinciKare = s1 * s1;
+      //int ikinciKare = s2 * s2;
+
+      //int toplam = birinciKare + ikinciKare;
+      //int fark = birinciKare - ikinciKare;
+
+      //int sonuc = toplam + fark;
+
+      //Console.WriteLine("İşlem sonucu:" + sonuc);
+
+
+      #endregion
+
+      #region
+      // Vize notunun %30 , final notunun %70 ni alıp öğrencinin not ortalamasını cıkartan bir uygulama yazınız.
+      //Console.WriteLine("Lütfen Vize Notu Giriniz");
+      //decimal vize = Convert.ToDecimal(Console.ReadLine());
+      //Console.WriteLine("Lütfen Final Notu Giriniz");
+      //decimal final = Convert.ToDecimal(Console.ReadLine());
+
+      //decimal vizeYuzdesi = (vize * 3) / 10;
+      //decimal finalYuzdesi = (final * 7) / 10;
+
+      //decimal sonuc = vizeYuzdesi + finalYuzdesi;
+
+      //Console.WriteLine("Not Ortalamı " + sonuc);
+
+      #endregion
+
+      #region
+      //Dışarıdan kullanıcı adını ve soyadını ayr ayrı alarak ve adi.soyadi@hotmail.com şeklinde mail adresini oluşturup
+      //kullanıcıya gösteriniz.
+
+
+      Console.WriteLine("Lütfen adınızı giriniz");
+      string kullaniciAdi = Console.ReadLine();
+      Console.WriteLine("Lütfen soyadınızı giriniz");
+      string kullaniciSoyIsim = Console.ReadLine();
+
+      Console.WriteLine("Kullanıcı Mail Adresi: " + kullaniciAdi + "." + kullaniciSoyIsim + "@hotmail.com");
+
+      #endregion
     }
